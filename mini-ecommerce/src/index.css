@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==== Light Pastel Theme ==== */
+@layer base {
+  html, body, #root { height: 100%; }
+  body {
+    @apply text-slate-700 bg-white;
+    background-image:
+      radial-gradient(1200px 600px at -10% -10%, rgba(125, 211, 252, .18), transparent 60%),
+      radial-gradient(1000px 500px at 120% 10%, rgba(196, 181, 253, .16), transparent 60%),
+      radial-gradient(900px 600px at 50% 120%, rgba(167, 243, 208, .14), transparent 60%);
+  }
+  a { @apply underline-offset-2 hover:underline; }
+}

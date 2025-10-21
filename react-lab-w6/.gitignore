@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log*
+
+# Dependencies & builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite cache (บางโปรเจกต์มีโฟลเดอร์นี้)
+.vite/
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Cypress / Playwright (ถ้าใช้)
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.eslintcache
+.stylelintcache
+.history/
+*.swp
+*.sw?
+
+# Env files (เก็บค่า sensitive)
+.env
+.env.*
+!.env.example  # แนะนำทำไฟล์ตัวอย่างคีย์ไว้ให้ทีม
+
+# Package manager caches
+.pnpm-store/
